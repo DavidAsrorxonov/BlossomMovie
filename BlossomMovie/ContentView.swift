@@ -11,16 +11,16 @@ struct ContentView: View {
     var body: some View {
         TabView {
             Tab(Constants.homeString, systemImage: "house") {
-                Text("Home")
+                Text(Constants.homeString)
             }
             Tab(Constants.upcomintString, systemImage: "play.circle") {
-                Text("Upcoming")
+                Text(Constants.upcomintString)
             }
             Tab(Constants.searchString, systemImage: "magnifyingglass") {
-                Text("Search")
+                Text(Constants.searchString)
             }
             Tab(Constants.downloadString, systemImage: "arrow.down.to.line") {
-                Text("Download")
+                Text(Constants.downloadString)
             }
         }
     }
